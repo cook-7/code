@@ -1,0 +1,4 @@
+Laptop 55000
+Mobile 25000
+Tablet 20000
+Watch 5000
