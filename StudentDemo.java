@@ -25,12 +25,12 @@ class Student {
     }
 
     public void displayDetails() {
-        System.out.println("Roll No: " + this.rollNo + ", Name: " + this.name +
-                           ", Age: " + this.age + ", Marks: " + this.marks);
+        System.out.println("Roll No: " + rollNo + ", Name: " + name
+                + ", Age: " + age + ", Marks: " + marks);
     }
 }
 
-public class StudentDemo {
+class Main {
     public static void main(String[] args) {
         Student s1 = new Student();
         Student s2 = new Student("Aarav", 20, 101, 85.5);
